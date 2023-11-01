@@ -1,12 +1,45 @@
+
+/* 
+    color codes
+
+    burgundi: color: rgb(124, 39, 70);
+    yellow: rgb(254, 203, 2);
+    black: rgb(31, 31, 31);
+    white: 
+*/
+
+
 * {
     padding: 0;
     margin: 0;
+    
 }
 
 header {
     width: 100%;
+    
 }
 
 img {
     width: 100%;
+}
+/* 
+._welcometext {
+     font-family: 'Nanum Gothic', sans-serif;
+     text-align: right;
+     font-size: 10em;
+    line-height: 1.1;
+    color: rgb(124, 39, 70);
+} */
+
+._welcomestar img {
+    width: 160%;
+
+}
+
+._welcomestar {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding-top: 2em;
 }
