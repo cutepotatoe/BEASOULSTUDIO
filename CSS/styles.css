@@ -33,9 +33,19 @@ h2 {
     font-family: 'Annie Use Your Telescope', cursive;
 }
 
+h5 {
+    font-family: 'Anton', sans-serif;
+    padding-bottom: 1em;
+    margin-top: -2em;
+    margin-left: 0.8em;
+    color: rgb(255, 255, 255);
+}
+
+
 p {
     font-family: 'Poppins', sans-serif;
 }
+
 
 button {
     font-family: 'Annie Use Your Telescope', cursive;
@@ -64,5 +74,28 @@ button {
 }
 
 ._sec1 {
-    margin-bottom: 8em;
+    margin-bottom: 10em;
 }
+
+._sec2 {
+    margin-bottom: 10em;
+}
+
+
+/* ._sec3{
+    margin: 0;
+    display: flex;
+    width: 100vh;
+} */
+
+._row1 {
+    align-items: center;
+    margin-bottom: 5em;
+}
+
+
+._col2 {
+    display: flex;
+    justify-content: center;
+}
+
