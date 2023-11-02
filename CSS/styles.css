@@ -5,7 +5,7 @@
     burgundi: color: rgb(124, 39, 70);
     yellow: rgb(254, 203, 2);
     black: rgb(31, 31, 31);
-    white: 
+     
 */
 
 
@@ -23,6 +23,25 @@ header {
 img {
     width: 100%;
 }
+
+h1 {
+    font-family: 'Anton', sans-serif;
+    font-size: 4em;
+}
+
+h2 {
+    font-family: 'Annie Use Your Telescope', cursive;
+}
+
+p {
+    font-family: 'Poppins', sans-serif;
+}
+
+button {
+    font-family: 'Annie Use Your Telescope', cursive;
+}
+
+
 /* 
 ._welcometext {
      font-family: 'Nanum Gothic', sans-serif;
@@ -42,4 +61,8 @@ img {
     justify-content: center;
     align-items: flex-start;
     padding-top: 2em;
+}
+
+._sec1 {
+    margin-bottom: 8em;
 }
