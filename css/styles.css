@@ -62,3 +62,39 @@ footer p {
 
 
 
+
+
+
+/* MEDIA QUERIES */
+
+@media (max-width: 767.98px) {
+    ._botonesfooter{
+        align-items: flex-start; 
+        justify-content: center;
+    }
+
+    ._logofooter {
+        align-items: center;
+    }
+
+}
+
+
+/* BREAKPOINT TAMAÑO MD */
+
+@media (min-width: 768px) {
+
+    ._botonesfooter{
+       align-items: flex-start; 
+       justify-content: flex-start;
+    }
+
+    ._logofooter {
+        align-items: flex-end;
+    }
+
+}
+
+
+
+
