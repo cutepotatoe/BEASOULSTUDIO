@@ -1,6 +1,6 @@
 
 /* 
-    color codes
+    color codes ^^
 
     burgundi: color: rgb(124, 39, 70);
     yellow: rgb(254, 203, 2);
@@ -61,16 +61,32 @@ footer p {
 }
 
 
-
+._welcomestar img {
+    width: 160%;
+}
+._welcomestar {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding-top: 2em;
+}
 
 
 
 /* MEDIA QUERIES */
 
 @media (max-width: 767.98px) {
+    ._welcomestar img {
+        width: 90%;
+    }
+    
     ._botonesfooter{
         align-items: flex-start; 
         justify-content: center;
+    }
+
+    ._footerarrow img{
+        width: 10%;
     }
 
     ._logofooter {
