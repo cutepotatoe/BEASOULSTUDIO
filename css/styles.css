@@ -72,6 +72,32 @@ footer p {
 }
 
 
+/* marquee */
+.marquee {
+    position: relative;
+    width: 100vw;
+    max-width: 100%;
+    height: 200px;
+    overflow-x: hidden;
+}
+
+.content img{
+    width: 50%;
+    padding: 2em;
+}
+  
+.track {
+    position: absolute;
+    white-space: nowrap;
+    will-change: transform;
+    animation: marquee 32s linear infinite;
+}
+  
+@keyframes marquee {
+    from { transform: translateX(0); }
+    to { transform: translateX(-50%); }
+}
+
 
 /* MEDIA QUERIES */
 
@@ -79,7 +105,15 @@ footer p {
     ._welcomestar img {
         width: 90%;
     }
-    
+
+
+    /* marquee */
+    .content img{
+        width: 100%;
+        padding: 2em;
+    }
+
+    /* footer */
     ._botonesfooter{
         align-items: flex-start; 
         justify-content: center;
