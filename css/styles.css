@@ -90,7 +90,7 @@ footer p {
     position: absolute;
     white-space: nowrap;
     will-change: transform;
-    animation: marquee 32s linear infinite;
+    animation: marquee 28s linear infinite;
 }
   
 @keyframes marquee {
