@@ -60,7 +60,6 @@ footer p {
     color: rgb(255, 255, 255);
 }
 
-
 ._welcomestar img {
     width: 160%;
 }
@@ -77,27 +76,35 @@ footer p {
     position: relative;
     width: 100vw;
     max-width: 100%;
-    height: 200px;
+    height: 190px;
     overflow-x: hidden;
-}
-
-.content img{
-    width: 50%;
-    padding: 2em;
 }
   
 .track {
+    height: 100%;
     position: absolute;
     white-space: nowrap;
     will-change: transform;
     animation: marquee 28s linear infinite;
 }
-  
+.content {
+    height: 100%;
+}
+
+.content img{
+    height: auto;
+    width: 50%;
+    padding: 2em;
+}
+
 @keyframes marquee {
     from { transform: translateX(0); }
     to { transform: translateX(-50%); }
 }
 
+._blackarrow img{
+    width: 5%;
+}
 
 /* MEDIA QUERIES */
 
@@ -111,6 +118,9 @@ footer p {
     .content img{
         width: 100%;
         padding: 2em;
+    }
+    ._blackarrow img{
+        width: 10%;
     }
 
     /* footer */
@@ -137,7 +147,7 @@ footer p {
 /* BREAKPOINT TAMAÑO MD */
 
 @media (min-width: 768px) {
-
+    /* footer */
     ._botonesfooter{
        align-items: flex-start; 
        justify-content: flex-start;
