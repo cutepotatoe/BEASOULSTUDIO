@@ -108,18 +108,31 @@ footer p {
 
 /* SNS */
 
+._movingcircle img{
+    width: 20%;
+}
+._specialmargin {
+    margin-top: 5em;
+}
+
 .rotate {
-    animation: rotate 20s infinite linear;  
+    animation: rotate 10s infinite linear; 
+    
 }
 
 @keyframes rotate {
     0% {
-        transform: rotate(0deg);
+        transform: scale(1) rotate(360deg);
+    }
+    50% {
+        transform: scale(2.8); 
     }
     100% {
-        transform: rotate(360deg);
+        transform: scale(1) rotate(-360deg);
     }
 }
+
+
 
 /* MEDIA QUERIES */
 
