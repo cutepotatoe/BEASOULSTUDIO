@@ -132,6 +132,9 @@ footer p {
     }
 }
 
+._textsns {
+    font-size: 0.8em;
+}
 
 
 /* MEDIA QUERIES */
@@ -148,6 +151,24 @@ footer p {
     }
     ._blackarrow img{
         width: 10%;
+    }
+
+    /* SNS */
+
+    @keyframes rotate {
+        0% {
+            transform: scale(1) rotate(360deg);
+        }
+        50% {
+            transform: scale(6); 
+        }
+        100% {
+            transform: scale(1) rotate(-360deg);
+        }
+    }
+
+    ._textsns {
+        margin: 1em;
     }
 
     /* footer */
