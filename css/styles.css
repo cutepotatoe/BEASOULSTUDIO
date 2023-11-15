@@ -106,13 +106,27 @@ footer p {
     width: 5%;
 }
 
+/* SNS */
+
+.rotate {
+    animation: rotate 20s infinite linear;  
+}
+
+@keyframes rotate {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
 /* MEDIA QUERIES */
 
 @media (max-width: 767.98px) {
     ._welcomestar img {
         width: 90%;
     }
-
 
     /* marquee */
     .content img{
