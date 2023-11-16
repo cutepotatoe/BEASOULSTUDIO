@@ -30,6 +30,13 @@ img {
     width: 100%;
 }
 
+._zoomimg {
+    transition: transform 0.3s ease-in-out;
+}
+
+._zoomimg:hover {
+    transform: scale(1.1);
+}
 
 h1 {
     font-family: 'Anton', sans-serif;
