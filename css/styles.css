@@ -237,9 +237,7 @@ input[type=text]:hover {
     }
 
     /* ABOUT */
-    #aboutrow {
-        height: 50vh;
-    }
+
 
     #aboutrow > ._habout {
         height: 50vh;
