@@ -176,11 +176,11 @@ input[type=text]:hover {
 }
 
 #seul img {
-    width: 40%;
+    width: 100%;
 }
 
 #ana img {
-    width: 40%;
+    width: 100%;
     filter: invert(100%);
 }
 
@@ -236,6 +236,15 @@ input[type=text]:hover {
         padding: 2vh;
     }
 
+    /* ABOUT */
+    #aboutrow {
+        height: 50vh;
+    }
+
+    #aboutrow > ._habout {
+        height: 50vh;
+    }
+
 }
 
 
@@ -252,8 +261,15 @@ input[type=text]:hover {
         align-items: flex-end;
     }
 
-    
+    /* ABOUT */
+    #aboutrow {
+        height: 100vh;
+    }
 
+    #aboutrow > ._habout {
+        height: 100vh;
+    }
+   
 }
 
 
