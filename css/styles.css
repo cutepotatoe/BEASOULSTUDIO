@@ -85,7 +85,7 @@ footer p {
     position: absolute;
     white-space: nowrap;
     will-change: transform;
-    animation: marquee 28s linear infinite;
+    animation: marquee 10s linear infinite;
 }
 .content {
     height: 100%;
@@ -99,7 +99,7 @@ footer p {
 
 @keyframes marquee {
     from { transform: translateX(0); }
-    to { transform: translateX(-50%); }
+    to { transform: translateX(-100%); }
 }
 
 ._blackarrow img{
@@ -134,6 +134,27 @@ footer p {
 
 ._textsns {
     font-size: 0.8em;
+}
+
+/* subcribe */
+#subscribe {
+    margin-top: 20%;
+    background-color: rgb(124, 39, 70);
+}
+
+input[type=text] {
+    padding: 8px 20px;
+    margin: 1em 0;
+    box-sizing: border-box;
+    border-radius: 20px;
+    outline: none;
+    width: 40%;
+    height:20%;
+    border:1px solid rgb(255, 255, 255);
+}
+input[type=text]:hover {
+	border:1px solid #000;
+	transition: 6s;
 }
 
 
